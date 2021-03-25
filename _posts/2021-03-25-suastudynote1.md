@@ -1,4 +1,8 @@
-# 정보보안 SUA - [오픈소스 보안] 1주차 GitHub 저장소
+---
+layout: single
+title:  "정보보안 SUA - [오픈소스 보안] 1주차 GitHub 저장소"
+---
+
 
 
 
