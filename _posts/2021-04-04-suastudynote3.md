@@ -29,7 +29,8 @@ ex) canon827.github.io라는 이름의 저장소를 로컬환경으로 받아오
 
 2. opensource-security-sua 디렉터리에 들어가서 로컬 브랜치를 생성한다.
 
-> C:\Users\YGH\sua-osp\opensource-security-sua> git status Your branch is up to date with 'origin/main'.
+> C:\Users\YGH\sua-osp\opensource-security-sua> git status 
+>Your branch is up to date with 'origin/main'.
 
 우선, git status 명령을 입력해 현재 상태를 확인해줍니다.
 
@@ -81,7 +82,7 @@ https://github.com/HACKERALERT/Picocrypt
 
 그 다음 이 브랜치를 선택하기 위해 git checkout 명령을 사용합니다. 이때, checkout 다음에 입력해주는 브랜치는 원작자의 원격 저장소 URL에 접속했을 때 상단쪽에 바로 보이는 브랜치를 입력해주면됩니다. 이 원작자분의 원격저장소의 경우 main이었기 때문에 git checkout main 명령을 입력해주면 됩니다.
 
-![checkout_choose branch](C:\Users\YGH\assets\image\picocryptmain.png)
+![checkout_choose branch](.\assets\images\picocryptmain.png)
 
 > C:\Users\YGH\sua-osp\Picocrypt> git merge upstream/main
 
