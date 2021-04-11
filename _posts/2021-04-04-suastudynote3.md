@@ -82,7 +82,7 @@ https://github.com/HACKERALERT/Picocrypt
 
 그 다음 이 브랜치를 선택하기 위해 git checkout 명령을 사용합니다. 이때, checkout 다음에 입력해주는 브랜치는 원작자의 원격 저장소 URL에 접속했을 때 상단쪽에 바로 보이는 브랜치를 입력해주면됩니다. 이 원작자분의 원격저장소의 경우 main이었기 때문에 git checkout main 명령을 입력해주면 됩니다.
 
-![checkout_choose branch](.\assets\images\picocryptmain.png)
+![checkout_choose branch]({{ https://canon827.github.io }}{{ "" }}/assets/images/picocryptmain.png)
 
 > C:\Users\YGH\sua-osp\Picocrypt> git merge upstream/main
 
