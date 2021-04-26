@@ -13,9 +13,9 @@ title: "정보보안 SUA - [오픈소스 보안] 4주차 선택한 오픈소스 
 
 1. opensource-security-sua 내 디렉터리의 READ.ME 파일에 내가 선택한 3가지 오픈소스에 대해 Introduction까지 정리했다. 선택한 3가지 오픈소스의 이름은 다음과 같다.
 
->-Secure-coding-with-python
->-Picocrypt
->-Python-scripts
+-Secure-coding-with-python
+-Picocrypt
+-Python-scripts
 
 Secure-coding-with-python부터 차례대로 진행할 예정이다. 지난번에 선택했던 INGInious가 너무 목적이 특정되어 있었기때문에 Python-scripts로 바꿔 진행하려한다. Secure-coding-with-python와 Python-scripts의 실습은 vmware에서 진행하고 Picocrypt는 그냥 윈도우 환경에서 진행할 예정이다.
 
@@ -26,15 +26,15 @@ https://github.com/mmistakes/minimal-mistakes/blob/master/docs/_posts/2010-08-05
 블로그를 생성하기위한 기본 테마로 사용했던 mmistakes를 참고했으며 수정 전과 수정 후를 비교해보면 다음과 같다.
 
 ### 수정 전
->![checkout_choose branch](.\assets\images\picocryptmain.png)
+'{% raw %}![checkout_choose branch](.\assets\images\picocryptmain.png){% endraw %}'
 
 
 ### 수정 후
->![checkout_choose branch]({{ https://canon827.github.io }}{{ "" }}/assets/images/picocryptmain.png)
+'{% raw %}![checkout_choose branch]({{ https://canon827.github.io }}{{ "" }}/assets/images/picocryptmain.png){% endraw %}'
 
 수정 전에는 경로를 제대로 지정하지 못한 것을 확인할 수 있다. 나름 다른 블로그를 참고하려했지만 실패했다.
 
->![alt]({{ site.url }}{{ site.baseurl }}/assets/images/filename.jpg)
+'{% raw %}![alt]({{ site.url }}{{ site.baseurl }}/assets/images/filename.jpg){% endraw %}'
 
 위의 포맷을 그대로 본 따 사용했으며 이를 위해 나의 디렉터리 내 _config.yml 파일의 site.baseurl를 딱히 지정하지는 않았지만 공백으로 표기했다. 수정 후 원격 저장소로 push한 결과, 이미지가 제대로 나오는 것을 확인할 수 있었다.
 
