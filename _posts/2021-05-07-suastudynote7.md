@@ -40,3 +40,9 @@ Picocrypt.py에 대해 Run python file in Terminal 메뉴로 터미널창에서 
 -Python 파일 실행 시 나타나는 오류에 대한 해결방안 모색
 
 -디버깅이 제대로 안되는 시간이 길어질 때 너무 그것만 붙잡고 있지 말고 코드에 대한 정리 2부분 이상하기
+
+# 5. 참고
+[수알치 블로그](https://blog.daum.net/sualchi/13720396)
+[오드메이커](https://oddmaker.tistory.com/6)
+[개발자 지망생](https://blockdmask.tistory.com/440)
+[Visual code 문서](https://code.visualstudio.com/docs/python/debugging)

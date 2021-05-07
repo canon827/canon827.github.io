@@ -23,5 +23,5 @@ Picocrypt의 소스코드를 분석하기 시작했다. 분석하는 파일이�
 
 -소스코드 분석관련 자료 찾아보기 
 
-#참고
+# 5. 참고
 [exception](https://dojang.io/mod/page/view.php?id=2398)
