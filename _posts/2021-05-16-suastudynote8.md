@@ -14,13 +14,13 @@ title: "정보보안 SUA - [오픈소스 보안] 8주차 Picocrypt.py 디버깅 
 
 이 오류를 해결하기 위해서 우선, 멘토님이 조언해주셨던 대로 설치했던 패키지를 다시 한번 로컬해서 설치해보았다. 이때 사용했던 명령어는 아래와 같다.
 
->python -m pip install --upgrade pip
->python -m pip install argon2_cffi
->python -m pip install -U cffi pip setuptools
->python -m pip install wheel
->python -m pip install pycryptodome
->python -m pip install reedsolo
->python -m pip install ttkthemes
+>python -m pip install --upgrade pip    
+>python -m pip install argon2_cffi     
+>python -m pip install -U cffi pip setuptools    
+>python -m pip install wheel    
+>python -m pip install pycryptodome    
+>python -m pip install reedsolo    
+>python -m pip install ttkthemes    
 
 tkinterdnd2의 경우, git에서 따로 받아와 설치했다. 이에 대한 명령어는 다음과 같다.
 
