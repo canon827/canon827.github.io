@@ -35,8 +35,8 @@ tkinterdnd2의 경우, git에서 따로 받아와 설치했다. 이에 대한 �
 결국, Picocrypt.py에서 오류가 나는 부분을 다음과 같이 수정했다. reedsolo라는 모듈은 있었기 때문이다. 
 [오류 부분](https://github.com/henrychoi7/opensource-security-sua/blob/2e154a5265da3ac9241a5db65e77132223d3953a/canon827/Picocrypt/Picocrypt.py#L38)
 
->from creedsolo import RSCodec,ReedSolomonError
->-> from reedsolo import RSCodec,ReedSolomonError
+>from creedsolo import RSCodec,ReedSolomonError     
+>-> from reedsolo import RSCodec,ReedSolomonError 
 
 다행이 이 부분을 수정한 후, Picocrypt.py이 정상적으로 실행되는 것을 확인할 수 있었다.
 
